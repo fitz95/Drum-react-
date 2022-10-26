@@ -1,0 +1,33 @@
+#drum-pads{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+#drum-pads> .drum-pad{
+    flex: 1 1 30%;
+    
+}
+.drum-pad{
+    border: 1px solid black;
+    height: 10vh;
+    width: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1vh;
+    background-color: #e9ee84;
+    border-radius: 6px 6px 6px 6px;
+}
+
+#display{
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
